@@ -1,0 +1,71 @@
+/*TOC
+    - Global
+    - Page Structure
+    - Typography
+    - Lists
+    - Images
+*/
+
+/*------------------------>>> GLOBAL <<<------------------------*/
+
+body,h1,h5 { font-family: "Raleway", sans-serif; }
+body, html { height: 95% }
+
+
+/*-------------------->>> PAGE STRUCTURE <<<--------------------*/
+
+.googleBox { margin-bottom: 20px; }
+.container { padding-left: 1cm; }
+
+.background {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+#output {
+  border-radius: 25px;
+  margin-top: 1%;
+  padding-bottom: 4cm;
+  padding-left: 1cm;
+  text-shadow: 2px 2px 4px #000000;
+}
+  
+.gsc-control-cse .gsc-table-result { font-family: inherit; }
+.gsc-control-cse .gsc-input-box { height: inherit; }
+
+input.gsc-input,
+.gsc-input-box,
+.gsc-input-box-hover,
+.gsc-input-box-focus,
+.gsc-search-button, input.gsc-search-button-v2 {
+	box-sizing: content-box;
+	line-height: normal;
+	margin-top: 0px;
+  margin-left: 10px;
+}
+
+.random { text-decoration: none; }
+
+
+/*--------------------->>> TYPOGRAPHY <<<-----------------------*/
+
+h1 { padding-top: 0.5cm; }
+
+p { padding-left: 1cm; }
+
+
+/*----------------------->>> LINKS <<<--------------------------*/
+
+a:hover { color: grey; }
+
+
+/*---------------------->>> IMAGES <<<--------------------------*/
+
+.bgimg {
+  background-image: url('http://res.cloudinary.com/todell555/image/upload/v1496701905/Iceberg_in_the_Arctic_with_its_underside_exposed_eufavt.jpg');
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
+}  
+  
